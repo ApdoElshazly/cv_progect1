@@ -1,0 +1,444 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-image: url(WhatsApp\ Image\ 2024-04-06\ at\ 22.23.45_bca90599.jpg);
+}
+.setting-contro
+{
+    background-color: white;
+padding: 1vw;
+border-radius: 1vw;
+
+
+
+}
+.cv-content
+{
+    justify-content: center;
+    justify-items: center;
+
+}
+.icon-setting
+{
+
+    padding: 3px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 1px;
+}
+
+#facebook
+{
+    background-color:rgb(193, 199, 204) ;
+    color: blue;
+    transition: all 0.70s ease;
+    
+}
+#whatsapp
+{
+    background-color:rgb(193, 199, 204) ;
+    color: green;
+    transition: all 0.70s ease;
+}
+#instagram
+{
+    background-color:rgb(193, 199, 204) ;
+    color: crimson ;
+    transition: all 0.70s ease;
+}
+#twitter
+{
+    background-color:rgb(193, 199, 204) ;
+    transition: all 0.70s ease;
+    color: #000;
+    
+}
+.icon-setting:hover
+{
+    cursor: pointer;
+}
+#twitter:hover
+{
+    background-color: rgb(102, 0, 255);
+    transform:translateY(-3px)
+    
+}
+#instagram:hover
+{
+    background-color: rgb(102, 0, 255);
+    transform:translateY(-3px)
+    
+}
+#whatsapp:hover
+{
+    background-color: rgb(102, 0, 255);
+    transform:translateY(-3px)
+    
+}
+#facebook:hover
+{
+    background-color: rgb(102, 0, 255);
+    transform:translateY(-3px)
+    
+}
+.about-me
+{
+border-radius:5px;
+background-color:rgb(193, 199, 204) ;
+padding: 10px;
+}
+.about-me-icon
+{
+background-color: white;
+border: 2px solid white;
+width: 2vw;
+height: 2vw;
+text-align: center;
+font-size: larger;
+
+}
+
+
+#loc-icon
+{
+
+    border-radius: 5px;
+    color:crimson;
+}
+#email-icon
+{
+    color: blue;
+    border-radius: 5px;
+
+}
+#smart-icon
+
+{
+    border-radius: 5px;
+
+    color: crimson;
+}
+#Cal-icon
+{
+    
+
+    border-radius: 5px;
+    color: darkorchid;
+}
+.img-controll
+{
+    width: 9vw;
+    height: 6vw;
+}
+.padges-movein
+{
+    margin-top: 3.2vw;
+    background-color: white;
+    border-radius: 20px;
+}
+.movein-icons
+{
+    background-color: rgb(190, 199, 195);
+text-align: center;
+border-radius: 1vw;
+padding: 5px;
+margin: 1vw;
+}
+.movein-icons:hover
+{
+
+    cursor: pointer;
+    color: rgb(252, 244, 244);
+    background-color:rgb(73, 73, 238) ;
+}
+.movein-icons i
+{
+
+
+    font-size: large;
+}
+.genral-content
+{
+    background-color: white;
+    border-radius: 15px;    
+
+}
+.blueline
+{
+    border-radius: .2vw;
+    width:9vw;
+    height: 0.2vw;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 1vw;
+}
+.first-con
+{
+    display: flex;
+    
+    
+}
+.sec-con h6:first-child
+{
+    color: rgb(190, 199, 195);
+
+
+}
+.genral-content 
+{
+    padding:1vw;
+}
+.sec-con
+{
+    position: relative;
+    left: 2vw;
+}
+.btn-con 
+{
+
+    text-decoration: none;
+}
+.sup-bt
+{
+    margin-left: 1.2vw;
+    margin-bottom: 1.5vw;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 600px) {
+   
+    h6 {
+        font-size: 10px;
+    }
+    body{
+        font-size: 10px;
+ 
+    }
+    h4{
+        font-size:12px;
+    }
+}
+@media only screen and (max-width: 1307px) {
+   
+    h6 {
+        font-size: 12px;
+    }
+    body{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 904px) {
+   
+    h6 {
+        font-size: 6px;
+        font-weight: 80%;
+    }
+    body{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 680px) {
+   
+    h4{
+        font-size: 10px;
+    }
+}
+.genral-content
+{
+    margin-top: 4.2vw;
+}
+.setting-contro
+{
+    margin-top: 1.2vw;
+}
+@media only screen and (max-width: 780px) {
+    .sec-con h6
+    {
+        font-size: 2.5vw;
+    }
+P{
+    font-size:2.5vw;
+}
+#smart-icon
+{
+    font-size: 3vw;
+}
+#email-icon
+{
+    
+    font-size: 3vw;
+}
+#Cal-icon 
+{
+    
+    font-size: 3vw;
+}
+#loc-icon
+{
+    
+    font-size: 3vw;
+}
+
+    .Con-bt-d
+{
+    font-size: small;
+}
+.control-flow-cv h6
+{
+    
+    font-size: 2.5vw;
+}
+.control-flow-cv h4 
+{
+    
+    font-size: 3vw;
+}
+
+#facebook
+{
+    background-color:white ;
+    color: blue;
+    transition: all 0.70s ease;
+    
+}
+#whatsapp
+{
+    background-color:white ;
+    color: green;
+    transition: all 0.70s ease;
+}
+#instagram
+{
+    background-color:white ;
+    color: crimson ;
+    transition: all 0.70s ease;
+}
+#twitter
+{
+    background-color:white ;
+    transition: all 0.70s ease;
+    color: #000;
+    
+}
+#twitter:hover
+{
+    background-color: rgb(0, 238, 255);
+    transform:translateY(-3px)
+    
+}
+#instagram:hover
+{
+    background-color:  rgb(0, 238, 255);
+    transform:translateY(-3px)
+    
+}
+#whatsapp:hover
+{
+    background-color: rgb(0, 238, 255);
+    transform:translateY(-3px);
+    
+}
+#facebook:hover
+{
+    background-color: rgb(0, 238, 255);
+    transform:translateY(-3px)
+    
+}
+
+    
+}
+.control-flow-cv
+{
+    background-color: white;
+    border-radius: 15px;
+}
+#flow-img
+{   
+    margin-top: 3vw;
+     width: 20vw;
+    height: 15vw;
+
+}
+@media only screen and (max-width: 450px) {
+    .Con-bt-d
+    {
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Con-bt-d
+    {
+        font-size:xx-small;
+    }
+
+}
+.Con-bt-d
+{
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+.control-flow-cv
+{
+    padding:1vw;
+    margin-left:8vw;
+    margin-right: 8vw;
+
+
+}
+.about-me-flow
+{
+    border-radius:5px;
+background-color:white ;
+padding: 10px;
+
+}
+
+label
+{
+    font-size: 2.2vw;
+}
+.second-content
+{
+    padding:3vw;
+    background-color: white;
+    margin-top:3.2vw;
+    border-radius: 15px;
+}
+.h4-card
+{
+    line-height: 1vw    ;
+}
+.card-control
+{
+    background-color:rgb(232, 232, 232);
+    margin-left: 4vw;
+    border-radius: 15px;
+    
+}
+.con-imgs
+{
+    display: flex;
+    margin-bottom:2vw ;
+    
+    
+}
+.card-img-c 
+{
+    border-radius: 2vw;
+}
+@media only screen and (max-width: 567px) {
+    .h4-card-moc{
+        font-size: 1vw;
+    }
+    
+}
